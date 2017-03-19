@@ -47,7 +47,6 @@ edgey1 = (region ^ np.roll(nregion,shift=shift,axis=1))
 
 plt.imshow(imgarray)
 
-
 plt.contour(edgex1,2,colors='y',lw=2.)
 plt.contour(edgey1,2,colors='y',lw=2.)
 plt.imshow(imgarray)
